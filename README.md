@@ -6,7 +6,7 @@ The purpose of this repository is to support the MongoDB Atlas Crash Course in M
 ---
 
 ## Introduction to MongoDB and MongoDB Atlas
-### Hands-on Workshop
+### MongoDB Atlas Crash Course
 #### Overview
 
 
@@ -43,17 +43,12 @@ tool that is part of the MongoDB Atlas User Interface.
     * Query Performance/Indexes (includes Performance Advisor Demo)
     * Aggregation Framework Example
     
-3.  MongoDB Atlas Operations
-    * Continuous Backup
-    * Cluster Snapshots
-    * Demo of Point-in-Time restore
-    
-4.  MongoDB Stitch
+3.  MongoDB Stitch
     * Webhooks
     * Triggers
     * Query Anywhere
     
-5.  MongoDB Charts
+4.  MongoDB Charts
 
 ---
 
@@ -296,62 +291,7 @@ This pipeline can then be saved if you would like to use it again at a later tim
 
 ---
 
-## 3.  MongoDB Atlas Operations 
-
-### Lab 1 - Continuous Backup
-
-In order to have maximum flexibility in terms of backup policies and features is to deploy a MongoDB 4.0 cluster that is an M30 or larger
-
-MongoDB Atlas users can choose Continuous Backup or Cluster Snapshots.
-
-![](img/backup-001.jpg)  
-  
-  
-### Lab 2 - Cluster Snapshots 
-
-When using AWS and doing Cluster Snapshots with MongoDB 4.0 users can choose "Cluster Provided Snapshots" and the option of enabling "Point in Time Restores".
-    
-![](img/backup-002.jpg)  
-   
-   
-It is important to point out that currently MongoDB Atlas 4.2 does not yet support "Point in Time Restores"
-   
-![](img/backup-003.jpg)  
-  
-   
-### Lab 3 - Point-in-Time Restore
-In order to do a "Point in Time Restore", the first step is to go to the Atlas dashboard and to click on "Continuous Backup" as indicated:
-
-![](img/backup-004.jpg)  
-   
-   
-Select the cluster whose data is going to be backed up, by clicking on the ellipsis "..." and choosing "Restore" as indicated below.
-   
-![](img/backup-005.jpg)  
-   
-   
-Click on "Point in Time" and then select the date that we wish to restore data  to. This is our exact date and time, as indicated below:
-    
-![](img/backup-006.jpg)  
-
-
-Then we need to decide where the data will be restored to. We can choose the same or a different cluster. 
-   
-![](img/backup-007.jpg)  
-
-
-The data in the target clster will be erased by the restore process. Choose a cluster as indicated below:
-   
-![](img/backup-008.jpg)  
-
-
-The last step is to click "Confirm and Continue" as indicated below:
-
-![](img/backup-009.jpg)  
-
----
-
-## 4.  MongoDB Stitch
+## 3.  MongoDB Stitch
 [MongoDB Stitch](https://docs.mongodb.com/stitch/) is a serverless platform that enables developers to quickly build applications
 without having to set up server infrastructure.  Stitch is built on top of MongoDB Atlas enabling it to
 automatically integrate the connection to your database.
@@ -689,7 +629,7 @@ Our example is running at https://mystitchapplication-tlpid.mongodbstitch.com/my
 
 ---
 
-## 5.  MongoDB Charts
+## 4.  MongoDB Charts
 ### Lab 1 - Visualize Your Data
 MongoDB Charts allows you to quickly and easily unlock the value in your data. Let's do some analysis on our NYC restaurant data:
 
@@ -788,3 +728,4 @@ Create a chart showing the actors by the number of comments and metacritic score
 
 
 ---
+* * 
