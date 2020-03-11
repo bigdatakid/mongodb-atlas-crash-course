@@ -1,8 +1,7 @@
 # MongoDB Atlas Crash Course
-The purpose of this repository is to support the MongoDB Atlas Workshop in Atlanta coming January 15, 2020.  If you are interested in participating, please be sure to register
-for the [Atlanta MongoDB Atlas Workshop at Techrise](https://atlmdbatlasworkshoptechrise.splashthat.com/). 
+The purpose of this repository is to support the MongoDB Atlas Crash Course in Memphis coming March 12, 2020. 
 
-![](img/Atlanta_MongoDB_Atlas_Workshop_At_TechRise.jpg)
+![](img/mongodb-atlas-crash-course.jpg)
 
 ---
 
