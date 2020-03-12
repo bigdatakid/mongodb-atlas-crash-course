@@ -1,0 +1,23 @@
+{
+  "name": "mongodb-atlas-crash-course",
+  "version": "1.0.0",
+  "description": "The purpose of this repository is to support the MongoDB Atlas Crash Course in Memphis coming March 12, 2020.",
+  "main": "index.js",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigdatakid/mongodb-atlas-crash-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigdatakid/mongodb-atlas-crash-course/issues"
+  },
+  "homepage": "https://github.com/bigdatakid/mongodb-atlas-crash-course#readme"
+}
