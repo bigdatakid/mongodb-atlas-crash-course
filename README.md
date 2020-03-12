@@ -414,7 +414,7 @@ to testing externally!!!
 
 #### Test the GET Webhook
 Since this is a REST-based API, we can basically use just about any tool that we are comfortable with.  For example, one
-could test with a Python script, the command-line utility curl, or [Postman](https://www.getpostman.com/).
+could test with a Python script, the command-line utility curl.
 
 MongoDB Stitch makes this incredibly easy.  If you click on the **Settings** tab for our webhook, it will provide the
 Webhook URL.
@@ -499,7 +499,7 @@ We will test with curl once more.  To make things a bit easier, below is the JSO
 }
 ```
 In order to test with curl, you will need to be sure to include the Content-Type.  An example POST with result is below.
-If you are using Postman to test, it is even easier!
+
 ```
 curl -H "Content-Type: application/json" \
 > -d '{ "name":"My New User", "email":"myNewUserEmail", "password":"mySecurePassword", "birthdate":"2001-06-13"}' \
